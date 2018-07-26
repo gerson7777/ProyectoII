@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/mas"
+            android:title="Añadir Proceso" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/buscar"
+            android:title="Buscar e Eliminar" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/actualizar"
+            android:title="Actualizar" />
+    </group>
+
+    <item android:title="Mapas">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/marcador"
+                android:title="Agregar Punto" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/mapas"
+                android:title="Mostrar Mapa" />
+        </menu>
+    </item>
+
+</menu>

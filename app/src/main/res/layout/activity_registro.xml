@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app"
+    tools:context="activitys.Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Registration"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="55px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/txtNomUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="18"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtCorUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="18"
+            android:hint="User Email"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/txtPassUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="18"
+            android:hint="User Password"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHint="@android:color/holo_green_light"
+            android:textSize="20dp" />
+        <Button
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/btnRegistrarUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#52BE80"
+            android:text="Register User"
+            android:textSize="25dp" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
